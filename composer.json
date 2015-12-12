@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Library for support of the pdo_dblib (MSSQL) driver in Doctrine",
     "keywords": ["pdo_dblib","pdo","dblib","mssql","doctrine"],
-    "homepage": ""https://github.com/TiiToo/PDOAccessBundle",
+    "homepage": "https://github.com/TiiToo/PDOAccessBundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
