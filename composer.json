@@ -1,0 +1,27 @@
+{
+    "name": "tito/pdo-access-bundle",
+    "type": "library",
+    "description": "Library for support of the pdo_dblib (MSSQL) driver in Doctrine",
+    "keywords": ["pdo_dblib","pdo","dblib","mssql","doctrine"],
+    "homepage": ""https://github.com/TiiToo/PDOAccessBundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/dbal": ">=2.1.0"
+    },
+   "authors": [
+        {
+            "name": "Tito",
+            "email": "titocanteros@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "replace": {
+        "tito/pdo-access-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "PDOAccess\\PDOAccessBundle": "" }
+    },
+    "target-dir": "PDOAccess/PDOAccessBundle"
+}
